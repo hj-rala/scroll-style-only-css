@@ -1,8 +1,15 @@
-  textarea::-webkit-scrollbar {
-    width: 6px;
-  }
+.modal-con {
+    width: 100%;
+    max-height: calc(100vh - 326px);
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
 
-  textarea::-webkit-scrollbar-thumb {
-    background-color: $grayD9;
-    border-radius: 3px;
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $grayD9;
+      border-radius: 3px;
+    }
   }
